@@ -23,7 +23,7 @@ int fibSpaceComOpt(int nthFib) {
     return fibMin1;
 }
 
-//recursive dynamic programming
+//dynamic programming
 //memorizing each calculation we make until result
 //algorithm uses previous results to calculate new rather than 2^n recursive stack
 int fibDynProg(int nthFib){
