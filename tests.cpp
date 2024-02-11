@@ -58,12 +58,14 @@ void fibFunctionsTest(){ //WARNING: calls one recursive function fibX, which can
             //std::cout << "" << std::endl;
             //std::cout << "" << std::endl;
             std::cin >> testTypeCallChoice;
+            std::cout << "Your char is " << testTypeCallChoice << std::endl;
 
             //match against valid input choices
             int match = 0; //no match
             for(char c : inputAlphabet){
-                if(testTypeCall == c){
+                if(testTypeCallChoice == c){
                     match = 1; //match found
+                    testTypeCall = testTypeCallChoice;
                 }
             }
 

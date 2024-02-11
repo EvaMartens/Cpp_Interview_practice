@@ -5,7 +5,7 @@
 #ifndef EAPRAC_TESTS_H
 #define EAPRAC_TESTS_H
 //the following array summerizes possible coices for input in the test class setter
-const char inputAlphabet[3] = {'f', 'F', 'x'};
+const char inputAlphabet[3] = {'f', 'F'};
 enum testType { fibbonacci = 'f'};
 //f & F = fibFunctionsTest()
 //'x' is default and not associated with test
