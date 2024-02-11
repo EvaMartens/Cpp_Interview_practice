@@ -5,6 +5,7 @@
 //main program
 int main() {
     std::cout << "C++ Interview practice!" << std::endl;
-    new Test('f');
+    Test() * myTest = new Test('f');
+    delete myTest;
     return 0;
 }
